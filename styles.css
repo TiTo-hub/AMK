@@ -1,0 +1,108 @@
+header,footer {
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgb(62, 177, 187);
+    text-align: center;
+}
+
+body {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid gray;
+    flex-direction: column;
+    height: fit-content;
+    background-color: rgb(31, 31, 31);
+    color: rgb(114, 179, 200);
+
+}
+
+nav {
+    background-color: turquoise;
+    padding: 10px;
+}
+
+.sidebar {
+    float: left;
+      
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    width: 60px;
+ 
+    height: 100%;
+}
+
+li a{
+    display: flex;
+    color: whitesmoke;
+    padding: 0 0 10px 0;    
+}
+
+li a:hover {
+    width: 100px;
+    background-color: turquoise;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper > div {
+    flex: 1;
+    text-align: center;
+}
+
+.container {
+    margin-left: 100px;
+    width: auto;
+
+}
+
+article {
+    float: left;
+    width: 40%;
+    padding: 1em;
+    height: 230px;
+}
+
+section {
+    float: left;
+    width: 40%;
+    padding: 1em;
+    height: 230px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    padding: 1em;
+    border-left: 1px solid gray;
+    height: 542px;
+    padding-top: 35px;
+    background-color: rgb(62, 177, 187);
+}
+
+.kuva {
+    border-radius: 0 50px 0 50px;
+}
+
+.progressbar {
+    
+    width: 170px;
+    height: 20px;
+    background-color: rgb(62, 177, 187);
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    padding: 1em;
+}
